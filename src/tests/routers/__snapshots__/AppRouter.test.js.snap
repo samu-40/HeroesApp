@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AppRouter.js Mostrar <LoginScreen/> si no estoy autenticado  1`] = `
+<div>
+  <div
+    className="box"
+  >
+    <h1>
+      Login
+    </h1>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

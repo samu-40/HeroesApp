@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en SearchScreen.js Debe mostrar al heroe y el input con el valor del queryString 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="container-search-screen"
+  >
+    <div
+      className="container-search"
+    >
+      <form
+        className="search"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="textSearch"
+          onChange={[Function]}
+          placeholder="Find your heroe"
+          type="text"
+          value="batman"
+        />
+        <button
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="results"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="main-container-flex"
+      >
+        <div
+          className="img"
+        >
+          <img
+            alt="Batman"
+            className="picture"
+            src="./assets/heroes/dc-batman.jpg"
+          />
+        </div>
+        <div
+          className="text"
+        >
+          <h3>
+            Batman
+          </h3>
+          <p>
+            Bruce Wayne
+          </p>
+          <a
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            More...
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearchScreen.js Deme mostrar un error si no se encuentra al heroe 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="container-search-screen"
+  >
+    <div
+      className="container-search"
+    >
+      <form
+        className="search"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="textSearch"
+          onChange={[Function]}
+          placeholder="Find your heroe"
+          type="text"
+          value="batman1253"
+        />
+        <button
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="results"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        id="error"
+      >
+        Hero batman1253 not found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearchScreen.js Mostrar componente con valores por defecto 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="container-search-screen"
+  >
+    <div
+      className="container-search"
+    >
+      <form
+        className="search"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="textSearch"
+          onChange={[Function]}
+          placeholder="Find your heroe"
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="results"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div>
+        Search a heroe
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+.container-grid{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border: 1px solid #3335;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #0007;
+}
+
+.img .hero{
+    --animate-duration: 600ms;
+    width: 350px;
+}
+
+.info{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info ul{
+    list-style: none;
+}
+
+.info ul .info-item{
+    margin-bottom: 10px;
+    border-bottom: .5px solid #3335;
+}
+
+.bio{
+    align-self: center;
+    text-align: center;
+}
+
+.bio p{
+    font-size: .9rem;
+    margin-top: 5px;
+}
+
+.btn-back{
+    width: 100%;
+    border: none;
+    background: #f44;
+    letter-spacing: .5px;
+    color: #fff;
+    border-radius: 3px;
+    transition: background .1s;
+}
+
+.btn-back:hover{
+    background: #f22;
+}

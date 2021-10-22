@@ -1,0 +1,36 @@
+.main-container-flex{
+    border: 1px solid #3335;
+    border-radius: 5px;
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 2px #0007;
+}
+
+.img{
+    height: 100%;
+    border-radius: 3px;
+}
+
+.img .picture{
+    max-height: 100%;
+}
+
+.text{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+    padding: 2px;
+}
+
+.text a{
+    width: min-content;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    transition: background .3s;
+    text-decoration: none;
+}

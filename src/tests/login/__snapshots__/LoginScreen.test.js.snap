@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en LoginScreen.js Mostrar correctamente 1`] = `
+<div
+  className="box"
+>
+  <h1>
+    Login
+  </h1>
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;

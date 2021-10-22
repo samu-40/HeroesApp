@@ -1,0 +1,29 @@
+.box{
+    width: 30%;
+    height: 20rem;
+    margin: 23vh auto;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px #000;
+    font-size: 1.5rem;
+}
+
+.btn{
+    border: none;
+    margin-top: 2rem;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    background: #44f;
+    transition: background .3s;
+}
+
+.btn:hover{
+    background: #22f;
+}
